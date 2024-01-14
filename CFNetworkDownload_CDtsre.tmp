@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Inno Setup Downloads</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="robots" content="noarchive" />
+<link rel="stylesheet" type="text/css" href="/styles.css" />
+</head>
+<body>
+
+<div style="border: 4px solid black; background: #3366cc"><img src="/images/header3.png" width="440" height="35" alt="jrsoftware.org // Jordan Russell's Software" /></div>
+
+<table border="0" cellpadding="6">
+<tr>
+<td valign="top" nowrap="nowrap">
+<img src="/images/arrow.gif" width="12" height="8" alt="-" /><a href="/">Home</a><br />
+<br /><div class="leftheading">Products</div>
+<div class="small"><br /></div>
+<img src="/images/arrow.gif" width="12" height="8" alt="-" /><b>Inno Setup</b><br />
+<div class="small"><br /></div>
+<div class="small" style="padding-left: 12px">
+<img src="/images/arrow.gif" width="12" height="8" alt="--" /><a href="/isinfo.php">About</a><br />
+<img src="/images/arrow.gif" width="12" height="8" alt="--" />Downloads<br />
+<img src="/images/arrow.gif" width="12" height="8" alt="--" /><a href="/ismail.php">Mailing List</a><br />
+<br />
+<img src="/images/arrow.gif" width="12" height="8" alt="--" /><a href="/isdonate.php">Donate</a><br />
+<img src="/images/arrow.gif" width="12" height="8" alt="--" /><a href="/iscontrib.php">Contribute</a><br />
+<br />
+<img src="/images/arrow.gif" width="12" height="8" alt="--" /><a href="/ishelp.php">Documentation</a><br />
+<img src="/images/arrow.gif" width="12" height="8" alt="--" /><a href="/isfaq.php">FAQ</a><br />
+<br />
+<img src="/images/arrow.gif" width="12" height="8" alt="--" /><a href="/is3rdparty.php">Third-Party Files</a><br />
+<img src="/images/arrow.gif" width="12" height="8" alt="--" /><a href="/files/istrans/">Translations</a><br />
+<img src="/images/arrow.gif" width="12" height="8" alt="--" /><a href="/islinks.php">Links</a><br />
+</div><br />
+<img src="/images/arrow.gif" width="12" height="8" alt="-" /><a href="/tb2k.php">Toolbar2000</a><br />
+<div class="small"><br /></div>
+<img src="/images/arrow.gif" width="12" height="8" alt="-" /><a href="/tb97info.php">Toolbar97</a><br />
+<div class="small"><br /></div>
+<img src="/images/arrow.gif" width="12" height="8" alt="-" /><a href="/striprlc.php">StripReloc</a><br />
+<br /><div class="leftheading">Support</div>
+<div class="small"><br /></div>
+<img src="/images/arrow.gif" width="12" height="8" alt="-" /><a href="/forums.php">Forums</a><br />
+<div class="small"><br /></div>
+<img src="/images/arrow.gif" width="12" height="8" alt="-" /><a href="/contact.php">Contact</a><br />
+<br /><div align="center" class="small"><img src="/count.php" width="56" height="14" alt="#######" /><br />visitors since<br />Jan. 1998</div>
+</td>
+
+<td width="100%" valign="top">
+<h3 class="whitebar">Inno Setup Downloads</h3>
+
+<a href="https://github.com/jrsoftware/issrc"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+
+<ul>
+  <li><a href="#stable">Stable Release</a></li>
+  <li><a href="#crypt">Encryption Module</a></li>
+  <li><a href="#beta">Beta Release</a></li>
+  <li><a href="#cvsgit">Source Code</a></li>
+  <li><a href="isdlold.php">Old Downloads</a></li>
+</ul>
+
+<p><b>Want to be notified by e-mail of updates?</b> Then <a href="ismail.php">click here to subscribe</a> to the Inno Setup announcements mailing list.</p>
+
+<a name="stable"></a><h3 class="whitebar">Stable Release</h3>
+
+<p>Inno Setup 6 introduced a number of significant enhancements including:</p>
+<ul>
+<li>6.0: Improved support for <a href="/ishelp/index.php?topic=admininstallmode">administrative vs. non administrative install mode.</a></li>
+<li>6.0: Overridable install mode by the end user at runtime (<a href="https://i.imgur.com/up287vq.png">example</a> if <tt>PrivilegesRequired</tt> is set to <tt>admin</tt>.)</li>
+<li>6.0: Improved support for <a href="/ishelp/index.php?topic=sidebyside">side-by-side installations</a> without the odd side effects you would get in previous versions.</li>
+<li>6.0: Optional support for a <a href="/ishelp/index.php?topic=setup_wizardresizable">resizable</a> wizard window.</li>
+<li>6.0: New optional <a href="/ishelp/index.php?topic=setup_wizardstyle">modern wizard style</a> (<a href="http://www.jrsoftware.org/images/is-welcome-org.png">example</a>.)</li>
+<li>6.0: Other changes for a more modern look to Setup, Uninstall, and the Setup Compiler.</li>
+<li>6.0: New light and dark themes, new toolbar icons and new per-monitor DPI awareness mode for the Compiler IDE (<a href="https://i.imgur.com/NVhZ0ml.png">light theme example</a>, <a href="https://i.imgur.com/J4LMPAa.png">dark theme example</a>.)</li>
+<li>6.0: <a href="/ishelp/index.php?topic=scriptevents&amp;anchor=eventattributes">Event attributes</a>, making it possible to have multiple implementations of the same event function in your script.</li>
+<li>6.0: Support for 64-bit mode on Windows 10 on ARM.</li>
+<li>6.0: <a href="https://i.imgur.com/hU4RQP2.png">Task dialog</a> support for the [Code] section.</li>
+<li>6.1: Many improvements to the Compiler IDE including support for <a href="https://i.imgur.com/iDrhOSs.png">editing and debugging of <tt>#include</tt> files</a> and <a href="https://i.imgur.com/IVI2nk3.png">viewing the preprocessor output</a> directly.</li>
+<li>6.1: Support for downloading files without using a third-party tool and easily <a href="https://i.imgur.com/deliPb8.png">showing the download progress</a> to the user.</li>
+<li>6.1: Support for per-user fonts if Setup is running on Windows 10 Version 1803 and later.</li>
+<li>6.2: Graphics modernized, including the automatic use of higher quality images (which were not available before) on higher DPI settings.</li>
+</ul>
+
+<p><b>OS requirements change:</b> Windows 2000, XP, and Server 2003 are no longer supported. Windows Vista is the minimum supported operating system.</p>
+
+<p><b>Change in default behavior:</b> Starting with Inno Setup 6.1 the [Setup] section directive <tt>MinVersion</tt> defaults to <tt>6.1sp1</tt>, so <b>by default Setup will not run on Windows Vista</b> or on versions of Windows 7 and Windows Server 2008 R2 which have not been updated. Setting <tt>MinVersion</tt> to <tt>6.0</tt> to allow Setup to run on Windows Vista is supported but not recommended: Windows Vista doesn't support some of Setup's security measures against potential DLL preloading attacks so these have to be removed by the compiler if <tt>MinVersion</tt> is below <tt>6.1</tt> making your installer less secure on all versions of Windows.</p>
+
+<p><b>Change in default behavior:</b> Starting with Inno Setup 6 there's only one version available: Unicode Inno Setup. Unicode Inno Setup has been available for since 2009 but in case you have not yet updated to it: please see the <a href="http://www.jrsoftware.org/ishelp/index.php?topic=unicode">Unicode Inno Setup</a> topic in the help file for more information. Basically, unless you're using [Code] to make DLL calls with string parameters you shouldn't have to make any changes to your script.</p>
+
+<p><a href="/files/is6-whatsnew.htm">What's new in this version?</a></p>
+
+<table class="standard" cellspacing="1">
+  <tr>
+    <th width="20%">Filename</th>
+    <th width="14%">Download Sites</th>
+    <th width="8%">Downloads</th>
+    <th width="8%">Date</th>
+    <th width="50%">Description</th>
+  </tr>
+  <tr>
+    <td nowrap="nowrap">innosetup-6.2.2.exe</td>
+    <td nowrap="nowrap">
+            <a href="/download.php/is.exe"><b>US</b></a>
+    </td>
+    <td align="center" nowrap="nowrap">766,272</td>
+    <td align="right" nowrap="nowrap">2023-02-15</td>
+    <td>
+      Unicode Inno Setup <b>self-installing package</b>.
+    </td>
+  </tr>
+</table>
+
+<p>Remember to check the <a href="isfaq.php">Inno Setup FAQ</a> for solutions to common problems. Also see the <a href="is3rdparty.php">Third-Party Files</a> page for some useful tools, and translations of Setup into other languages.</p>
+
+
+<p></p>
+
+<a name="crypt"></a><h3 class="whitebar">Encryption Module</h3>
+
+<p>For legal reasons, encryption code is not built into Inno Setup. You must download a separate "encryption module" if you wish to utilize Inno Setup's encryption capabilities (that is, the <tt>Encryption</tt> [Setup] section directive). Note: The installer above can download and install it for you.</p>
+
+<table class="standard" cellspacing="1">
+  <tr>
+    <th width="20%">Filename</th>
+    <th width="14%">Download Sites</th>
+    <th width="8%">Downloads</th>
+    <th width="8%">Size</th>
+    <th width="50%">Description</th>
+  </tr>
+  <tr>
+    <td rowspan="2" nowrap="nowrap">ISCrypt.dll</td>
+    <td rowspan="2" nowrap="nowrap"><a href="/download.php/iscrypt.dll">Netherlands</a></td>
+    <td align="center" nowrap="nowrap">1,550,572</td>
+    <td align="right" nowrap="nowrap">2.5 KB</td>
+    <td>
+      Encryption module for Inno Setup.<br />To install, simply place the file in your Inno Setup directory.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3"><div align="center" class="small"><b>sha256 hash:</b> 2f6294f9aa09f59a574b5dcd33be54e16b39377984f3d5658cda44950fa0f8fc</div></td>
+  </tr>
+  <tr>
+    <td rowspan="2" nowrap="nowrap">ISCrypt.zip</td>
+    <td rowspan="2" nowrap="nowrap"><a href="/download.php/iscrypt.zip">Netherlands</a></td>
+    <td align="center" nowrap="nowrap">413,626</td>
+    <td align="right" nowrap="nowrap">2 KB</td>
+    <td>
+      Source code for the encryption module.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3"><div align="center" class="small"><b>sha256 hash:</b> 0569ffe1677ba699d07063a902d48c2f92c8e88669bdc13118f5808c30e998bc</div></td>
+  </tr>
+</table>
+
+<p></p>
+
+<a name="beta"></a><h3 class="whitebar">Beta Release</h3>
+
+<p>There are no beta versions currently available, but you can get a glimpse of what features might be included in the next release by viewing the <a href="http://jrsoftware.github.io/issrc/whatsnew.htm">Revision History file in Git</a>.</p>
+
+<p></p>
+
+<a name="cvsgit"></a><h3 class="whitebar">Source Code</h3>
+
+<p>You can get the Inno Setup source code via <a href="https://github.com/jrsoftware/issrc">GitHub</a>. Latest sources obtained via GitHub may contain fixes or new features not found in the latest released version of Inno Setup. However, those fixes and new features may not have yet been fully tested.</p>
+<p>View the <a href="http://jrsoftware.github.io/issrc/whatsnew.htm">Revision History file in Git</a>.</p>
+<p>To contribute to Inno Setup, see <a href="https://github.com/jrsoftware/issrc/blob/main/CONTRIBUTING.md">CONTRIBUTING.md on GitHub</a> for more info.</p>
+
+<hr />
+
+<p>For more Inno Setup-related downloads, see <a href="is3rdparty.php">Third-Party Files</a>.</p>
+
+<hr /><div class="small">Site contents Copyright &copy; 1997-2022 Jordan Russell. All rights reserved.<br />Portions Copyright &copy; 2000-2022 Martijn Laan. All rights reserved.</div>
+</td></tr></table>
+
+</body>
+</html>
